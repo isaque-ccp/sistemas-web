@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+  </head>
+  <body>
+    <header>
+      <h1>Produtos</h1>
+      <nav>
+        <a href="/">Início</a>
+        <a href="/produtos">Produtos</a>
+        <a href="/contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Produtos disponíveis</h2>
+        <p>Confira abaixo os produtos do nosso catálogo.</p>
+
+        <article>
+          <img src="notebook.webp" alt="Notebook prateado"
+          height="150"
+          width="150"/>
+          <h3>Notebook</h3>
+          <p>R$ 5.000,00</p>
+          <a href="/produtos/notebook">Ver detalhes</a>
+        </article>
+
+        <article>
+          <img src="mouse.webp" alt="Mouse sem fio preto" 
+           height="150"
+          width="150"/>
+          <h3>Mouse sem fio</h3>
+          <p>R$ 120,00</p>
+          <a href="/produtos/mouse">Ver detalhes</a>
+        </article>
+
+        <article>
+          <img src="teclado.webp" alt="Teclado mecânico com iluminação"  height="150"
+          width="150"/>
+          <h3>Teclado mecânico</h3>
+          <p>R$ 350,00</p>
+          <a href="/produtos/teclado">Ver detalhes</a>
+        </article>
+
+      </section>
+      <section>
+        <h2>Cadastrar produto</h2>
+
+        <form method="post" action="/produtos">
+
+          <label for="nome">Nome do produto:</label>
+          <input type="text" id="nome" name="nome">
+          <br></br>
+          <label for="preco">Preço:</label>
+          <input type="number" id="preco" name="preco" step="0.01">
+          <br></br>
+          <label for="imagem">Endereço da imagem:</label>
+          <input type="text" id="imagem" name="imagem">
+        <br></br>
+          <label for="categoria">Categoria:</label>
+          <select id="categoria" name="categoria">
+            <option value="informatica">Informática</option>
+            <option value="perifericos">Periféricos</option>
+            <option value="acessorios">Acessórios</option>
+          </select>
+
+          <label for="descricao">Descrição:</label>
+          <input type="text" id="descricao" name="descricao">
+
+          <button type="submit">Cadastrar Novo Produto</button>
+
+        </form>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Minha loja</p>
+    </footer>
+
+  </body>
+</html>
