@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #1e293b;
+  background-color: #f1f5f9;
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  color: #0f172a;
+}
+
+header {
+  background-color: #0f172a;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #93c5fd;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+
+article {
+  display: inline-block;
+  width: 200px;
+  background-color: #f8fafc;
+  padding: 16px;
+  margin: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+article img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+article h3 {
+  font-size: 18px;
+}
+
+article p {
+  color: #10b981;
+  font-weight: bold;
+}
+
+article a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 6px;
+}
+
+article a:hover {
+  background-color: #2563eb;
+}
+
+input,
+select {
+  width: 300px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+footer {
+  background-color: #0f172a;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  article {
+    display: block;
+    width: 100%;
+  }
+}
